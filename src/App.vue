@@ -76,7 +76,7 @@ export default {
                 <img
                   :src="item.icon"
                   :alt="item.category"
-                  class="sm:w-[22px]"
+                  class="w-[20px] sm:w-[22px]"
                 />
                 <div
                   :style="`color: ${colorsText[index]}`"
