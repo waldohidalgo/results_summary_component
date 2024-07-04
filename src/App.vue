@@ -3,6 +3,9 @@ import { ref } from "vue";
 import data from "./assets/data.json";
 
 import Footer from "./components/Footer.vue";
+
+// importar imagenes
+
 export default {
   setup() {
     const items = ref(data);
@@ -74,7 +77,7 @@ export default {
             <div class="flex">
               <div class="flex gap-[13px] sm:gap-[12px]">
                 <img
-                  :src="item.icon"
+                  :src="`/src/assets/${item.icon}`"
                   :alt="item.category"
                   class="w-[20px] sm:w-[22px]"
                 />

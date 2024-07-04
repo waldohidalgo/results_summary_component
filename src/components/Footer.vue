@@ -9,7 +9,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/images/logo_waldo.png" alt="logo waldo" />
+          <img src="../assets/logo_waldo.png" alt="logo waldo" />
         </a>
       </div>
     </div>
