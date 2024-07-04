@@ -77,7 +77,7 @@ export default {
             <div class="flex">
               <div class="flex gap-[13px] sm:gap-[12px]">
                 <img
-                  :src="`/src/assets/${item.icon}`"
+                  :src="`/images/${item.icon}`"
                   :alt="item.category"
                   class="w-[20px] sm:w-[22px]"
                 />
